@@ -24,7 +24,7 @@ git add -f glyphs
 git add -f glyphs.json
 
 if [ -n "`git diff --staged`" ]; then
-  git commit -m "Deploy to GitHub Pages: ${SHA}"
+  git commit -m "Deploy to GitHub Pages2: ${SHA}"
   git push origin gh-pages
 else
   >&2 echo "Nothing to deploy"
